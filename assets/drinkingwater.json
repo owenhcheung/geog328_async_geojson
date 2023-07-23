@@ -1,0 +1,1617 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.2 bd0cdeae",
+  "osm3s": {
+    "timestamp_osm_base": "2023-07-23T00:45:14Z",
+    "timestamp_areas_base": "2023-07-20T07:57:18Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 419519151,
+      "lat": 47.6853833,
+      "lon": -122.3365850,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "yahoo_wms;knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 581066509,
+      "lat": 47.6007710,
+      "lon": -122.3330562,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2022-08-21",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 581066552,
+      "lat": 47.5990470,
+      "lon": -122.3281990,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Weekdays 8am to 5pm",
+        "note": "Inside Union Station",
+        "stateofrepair": "ok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 687150887,
+      "lat": 47.6720381,
+      "lon": -122.3433660,
+      "tags": {
+        "access": "no",
+        "amenity": "drinking_water",
+        "source": "yahoo_wms"
+      }
+    },
+    {
+      "type": "node",
+      "id": 761917484,
+      "lat": 47.6264860,
+      "lon": -122.3744320,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "yahoo_wms;survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 763004590,
+      "lat": 47.6276524,
+      "lon": -122.3671992,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1032365405,
+      "lat": 47.6904473,
+      "lon": -122.3554127,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-01-14",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1097051442,
+      "lat": 47.7057968,
+      "lon": -122.3226288,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2022-04-19",
+        "source": "bing;survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1313736283,
+      "lat": 47.6643553,
+      "lon": -122.2953691,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1703405998,
+      "lat": 47.6719079,
+      "lon": -122.4054533,
+      "tags": {
+        "amenity": "drinking_water",
+        "designation": "Public Water Fountain",
+        "source": "Local_knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1709501198,
+      "lat": 47.5615988,
+      "lon": -122.2533305,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1719994059,
+      "lat": 47.6545544,
+      "lon": -122.4185146,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721398271,
+      "lat": 47.6639164,
+      "lon": -122.2981655,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721398273,
+      "lat": 47.6636461,
+      "lon": -122.2981809,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721398282,
+      "lat": 47.6634708,
+      "lon": -122.2981809,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721398283,
+      "lat": 47.6636659,
+      "lon": -122.2994335,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721401282,
+      "lat": 47.6623056,
+      "lon": -122.2990740,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1721401299,
+      "lat": 47.6622900,
+      "lon": -122.2992918,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1722489629,
+      "lat": 47.5302793,
+      "lon": -122.4008063,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-07-19",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1722489674,
+      "lat": 47.5305654,
+      "lon": -122.4007124,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-07-19",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837130905,
+      "lat": 47.5924367,
+      "lon": -122.3852988,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837296412,
+      "lat": 47.5951957,
+      "lon": -122.3873922,
+      "tags": {
+        "amenity": "drinking_water",
+        "layer": "1",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1837300480,
+      "lat": 47.5924042,
+      "lon": -122.3822464,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030778919,
+      "lat": 47.6304723,
+      "lon": -122.3151271,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030802220,
+      "lat": 47.5900531,
+      "lon": -122.2955524,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030812635,
+      "lat": 47.6103113,
+      "lon": -122.2821011,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030853771,
+      "lat": 47.6289633,
+      "lon": -122.2963153,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2030857747,
+      "lat": 47.6433045,
+      "lon": -122.3202676,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2301249117,
+      "lat": 47.6880625,
+      "lon": -122.2647890,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338220569,
+      "lat": 47.5512731,
+      "lon": -122.2548370,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338293734,
+      "lat": 47.5515161,
+      "lon": -122.2574244,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-04-24",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338301612,
+      "lat": 47.5500873,
+      "lon": -122.2567713,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338301636,
+      "lat": 47.5494876,
+      "lon": -122.2563795,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2338307679,
+      "lat": 47.5491483,
+      "lon": -122.2559453,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2355652808,
+      "lat": 47.6294481,
+      "lon": -122.3599356,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2021-08-24"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2397384694,
+      "lat": 47.5612503,
+      "lon": -122.3866415,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2416635083,
+      "lat": 47.5796125,
+      "lon": -122.4097261,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2474089169,
+      "lat": 47.6105258,
+      "lon": -122.3486178,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2666623900,
+      "lat": 47.6322762,
+      "lon": -122.3565958,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2737359394,
+      "lat": 47.6562649,
+      "lon": -122.4057727,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3057857933,
+      "lat": 47.6151875,
+      "lon": -122.3550831,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3080984559,
+      "lat": 47.6646350,
+      "lon": -122.3991910,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3240445063,
+      "lat": 47.6688810,
+      "lon": -122.3482896,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3240472361,
+      "lat": 47.6691536,
+      "lon": -122.3532929,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3240472461,
+      "lat": 47.6682038,
+      "lon": -122.3488607,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3404836093,
+      "lat": 47.5805723,
+      "lon": -122.3132848,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3425448696,
+      "lat": 47.5967829,
+      "lon": -122.3235460,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3526294145,
+      "lat": 47.5238008,
+      "lon": -122.3411442,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3526295396,
+      "lat": 47.5258933,
+      "lon": -122.3417647,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3557349984,
+      "lat": 47.6677696,
+      "lon": -122.3497601,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3577505696,
+      "lat": 47.6935096,
+      "lon": -122.3509138,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2022-09-19",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3581745394,
+      "lat": 47.6233406,
+      "lon": -122.3520261,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3655078712,
+      "lat": 47.6225796,
+      "lon": -122.3515892,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3664975830,
+      "lat": 47.6053167,
+      "lon": -122.3351153,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3667868539,
+      "lat": 47.6261683,
+      "lon": -122.3379233,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3669607025,
+      "lat": 47.5705431,
+      "lon": -122.3089744,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3671094525,
+      "lat": 47.6017896,
+      "lon": -122.3340510,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2022-08-21"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3675608451,
+      "lat": 47.5673973,
+      "lon": -122.2978361,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3717445907,
+      "lat": 47.6712478,
+      "lon": -122.3498186,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3717460221,
+      "lat": 47.6673005,
+      "lon": -122.3518806,
+      "tags": {
+        "amenity": "drinking_water",
+        "height": "1.5 ft"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3721979325,
+      "lat": 47.6556049,
+      "lon": -122.3803242,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3728490820,
+      "lat": 47.6663776,
+      "lon": -122.3519965,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3782641247,
+      "lat": 47.6651704,
+      "lon": -122.4149596,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4215903689,
+      "lat": 47.6358023,
+      "lon": -122.3977550,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4216074749,
+      "lat": 47.6614238,
+      "lon": -122.4341078,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4238307989,
+      "lat": 47.6102081,
+      "lon": -122.3191990,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4253709090,
+      "lat": 47.6820494,
+      "lon": -122.3399678,
+      "tags": {
+        "amenity": "drinking_water",
+        "animal_bowl": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4330147703,
+      "lat": 47.7130742,
+      "lon": -122.3782028,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4330157398,
+      "lat": 47.7116552,
+      "lon": -122.3692894,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4346832691,
+      "lat": 47.6786532,
+      "lon": -122.3291433,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4370340990,
+      "lat": 47.5496926,
+      "lon": -122.2502322,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4371664596,
+      "lat": 47.6139693,
+      "lon": -122.3143024,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375892554,
+      "lat": 47.6408053,
+      "lon": -122.3907616,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4384476393,
+      "lat": 47.5273082,
+      "lon": -122.3951733,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-07-19",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4384476992,
+      "lat": 47.5268321,
+      "lon": -122.3956173,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-04-23",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4384476994,
+      "lat": 47.5275499,
+      "lon": -122.3968060,
+      "tags": {
+        "amenity": "drinking_water",
+        "check_date": "2023-07-19",
+        "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4400510991,
+      "lat": 47.6113480,
+      "lon": -122.3304340,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4421245392,
+      "lat": 47.6485988,
+      "lon": -122.3424156,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4439705897,
+      "lat": 47.6609244,
+      "lon": -122.4281646,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4484429403,
+      "lat": 47.6102019,
+      "lon": -122.3428254,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4486127989,
+      "lat": 47.5343252,
+      "lon": -122.3946646,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4499375984,
+      "lat": 47.7218835,
+      "lon": -122.3281950,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4499378645,
+      "lat": 47.6655887,
+      "lon": -122.3447758,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4531029689,
+      "lat": 47.6106740,
+      "lon": -122.3370465,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4936317818,
+      "lat": 47.6800406,
+      "lon": -122.3291253,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4950152655,
+      "lat": 47.6645315,
+      "lon": -122.3974797,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5067540321,
+      "lat": 47.6162799,
+      "lon": -122.3538503,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080293121,
+      "lat": 47.6461914,
+      "lon": -122.3337362,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5080469922,
+      "lat": 47.6218375,
+      "lon": -122.3318835,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5117581930,
+      "lat": 47.6143983,
+      "lon": -122.3446159,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5139871737,
+      "lat": 47.6614623,
+      "lon": -122.3362730,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5455030733,
+      "lat": 47.6397333,
+      "lon": -122.2951041,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5577476781,
+      "lat": 47.6704789,
+      "lon": -122.3850282,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5579587375,
+      "lat": 47.5230846,
+      "lon": -122.3958780,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5579607936,
+      "lat": 47.6952503,
+      "lon": -122.3799790,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5614353175,
+      "lat": 47.7000512,
+      "lon": -122.3782564,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5648505743,
+      "lat": 47.6691330,
+      "lon": -122.3029531,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5678457380,
+      "lat": 47.6556560,
+      "lon": -122.3490237,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5739943927,
+      "lat": 47.6716751,
+      "lon": -122.3428897,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6011613555,
+      "lat": 47.6239825,
+      "lon": -122.3365288,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Water fountain both for humans and dogs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6154292058,
+      "lat": 47.6240663,
+      "lon": -122.3505144,
+      "tags": {
+        "access": "customers",
+        "amenity": "drinking_water",
+        "indoor": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6270197745,
+      "lat": 47.6217042,
+      "lon": -122.3491877,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6672408316,
+      "lat": 47.6304706,
+      "lon": -122.3479758,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6672471219,
+      "lat": 47.6306079,
+      "lon": -122.3485626,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6672504762,
+      "lat": 47.6361940,
+      "lon": -122.3538137,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6672528388,
+      "lat": 47.6360685,
+      "lon": -122.3542085,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6682359219,
+      "lat": 47.6335018,
+      "lon": -122.3977128,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6682400805,
+      "lat": 47.6335263,
+      "lon": -122.3980335,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6689637743,
+      "lat": 47.6451542,
+      "lon": -122.3605467,
+      "tags": {
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6695838410,
+      "lat": 47.6472681,
+      "lon": -122.3790926,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6704631560,
+      "lat": 47.6845733,
+      "lon": -122.2994700,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6717424647,
+      "lat": 47.6145905,
+      "lon": -122.3288955,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6780355224,
+      "lat": 47.6321201,
+      "lon": -122.3182590,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6786354330,
+      "lat": 47.6256274,
+      "lon": -122.3562748,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6833530073,
+      "lat": 47.6168159,
+      "lon": -122.3378470,
+      "tags": {
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7253891386,
+      "lat": 47.6827387,
+      "lon": -122.2572220,
+      "tags": {
+        "amenity": "drinking_water",
+        "dog": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7477267803,
+      "lat": 47.7026841,
+      "lon": -122.3766488,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7525967463,
+      "lat": 47.6797437,
+      "lon": -122.3821933,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7601020090,
+      "lat": 47.6847313,
+      "lon": -122.4032594,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7601020097,
+      "lat": 47.6831005,
+      "lon": -122.4034979,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7700657568,
+      "lat": 47.6112201,
+      "lon": -122.2899445,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7782250187,
+      "lat": 47.6451190,
+      "lon": -122.3988891,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7782279094,
+      "lat": 47.6406384,
+      "lon": -122.3993092,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8082726038,
+      "lat": 47.6773755,
+      "lon": -122.3739041,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8253177326,
+      "lat": 47.5243094,
+      "lon": -122.2639310,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8258400025,
+      "lat": 47.6577480,
+      "lon": -122.4062438,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8262799216,
+      "lat": 47.6658989,
+      "lon": -122.3421161,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8262822968,
+      "lat": 47.6690395,
+      "lon": -122.3430693,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8262823829,
+      "lat": 47.6654983,
+      "lon": -122.3416018,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8262842944,
+      "lat": 47.6685689,
+      "lon": -122.3414420,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8421003980,
+      "lat": 47.5901044,
+      "lon": -122.2925655,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "covered": "no",
+        "fee": "no",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8637245705,
+      "lat": 47.6170134,
+      "lon": -122.3197369,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8637257183,
+      "lat": 47.6164150,
+      "lon": -122.3190692,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8691788293,
+      "lat": 47.6851698,
+      "lon": -122.3364865,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8691788294,
+      "lat": 47.6822290,
+      "lon": -122.3396379,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8892743790,
+      "lat": 47.7034495,
+      "lon": -122.3633909,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9000443877,
+      "lat": 47.5831160,
+      "lon": -122.2873694,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "fee": "no",
+        "operator": "Seattle Parks and Recreation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9161502123,
+      "lat": 47.5985243,
+      "lon": -122.3252286,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9276448308,
+      "lat": 47.6364284,
+      "lon": -122.2772485,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9276473119,
+      "lat": 47.6360288,
+      "lon": -122.2770159,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9405123556,
+      "lat": 47.6683139,
+      "lon": -122.3530391,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9405123572,
+      "lat": 47.6664515,
+      "lon": -122.3503179,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9440983017,
+      "lat": 47.5128931,
+      "lon": -122.2660447,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9454489686,
+      "lat": 47.6593505,
+      "lon": -122.3191283,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no",
+        "fountain": "bubbler",
+        "operator": "Seattle Parks",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9535881038,
+      "lat": 47.5251297,
+      "lon": -122.3449137,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9673100094,
+      "lat": 47.5515559,
+      "lon": -122.3534236,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9709348956,
+      "lat": 47.5922679,
+      "lon": -122.3175537,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9709348965,
+      "lat": 47.5922456,
+      "lon": -122.3175747,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9740846341,
+      "lat": 47.5835363,
+      "lon": -122.3689653,
+      "tags": {
+        "amenity": "drinking_water",
+        "capacity": "1",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9761826588,
+      "lat": 47.6845839,
+      "lon": -122.3836557,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9773359806,
+      "lat": 47.6631658,
+      "lon": -122.3026684,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9775684690,
+      "lat": 47.7237433,
+      "lon": -122.3495047,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9775684697,
+      "lat": 47.7235271,
+      "lon": -122.3488575,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9795843680,
+      "lat": 47.6809296,
+      "lon": -122.2535548,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9814912535,
+      "lat": 47.6956156,
+      "lon": -122.3584710,
+      "tags": {
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9840148189,
+      "lat": 47.5395352,
+      "lon": -122.2961743,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9843002956,
+      "lat": 47.6317999,
+      "lon": -122.3858630,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9870510788,
+      "lat": 47.6894304,
+      "lon": -122.3168056,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880152852,
+      "lat": 47.6967112,
+      "lon": -122.2732893,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9880190214,
+      "lat": 47.6845431,
+      "lon": -122.2649430,
+      "tags": {
+        "access": "private",
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906294554,
+      "lat": 47.7260490,
+      "lon": -122.2882326,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9945224967,
+      "lat": 47.7065678,
+      "lon": -122.2927198,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9963951374,
+      "lat": 47.6092659,
+      "lon": -122.2825622,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10032460121,
+      "lat": 47.6437485,
+      "lon": -122.3873748,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10151634800,
+      "lat": 47.6273051,
+      "lon": -122.3425024,
+      "tags": {
+        "access": "public",
+        "amenity": "drinking_water",
+        "bottle": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10891957849,
+      "lat": 47.7055214,
+      "lon": -122.3255507,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025811599,
+      "lat": 47.6582820,
+      "lon": -122.3368524,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11025859723,
+      "lat": 47.6588521,
+      "lon": -122.3368559,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    }
+  ]
+}

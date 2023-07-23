@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Drinking Water Locations Within Seattle</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+    <style>
+    </style>
+  </head> 
+  <body>
+    <main id="container">
+        <div id="map"></div>
+        <div id="side-panel">
+ 
+            <h2>Drinking Water Locations Within Seattle</h2>
+            <button>Sort by check date</button>
+ 
+            <table>
+                <tr>
+                    <th>type</th>
+                    <th>check date</th>
+                </tr>
+            </table>
+ 
+        </div>
+    </main>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw';
+      let map = new mapboxgl.Map({
+          container: 'map', // container ID
+          style: 'mapbox://styles/mapbox/light-v9', // style URL
+          zoom: 11, // starting zoom
+          center: [-122.31635862546875, 47.59406892127061] // starting center
+      });
+
+      async function geojsonFetch() {
+          let response, water, seattle, table;
+          response = await fetch('assets/export.geojson');
+          water = await response.json();
+          response = await fetch('assets/seattlecensustracts.geojson');
+          console.log(response)
+          seattle = await response.json();
+
+          map.on('load', function loadingData() {
+
+          map.addSource('water', {
+              type: 'geojson',
+              data: water
+          });
+
+          map.addLayer({
+              'id': 'water-layer',
+              'type': 'circle',
+              'source': 'water',
+              'paint': {
+                  'circle-radius': 6,
+                  'circle-stroke-width': 1,
+                  'circle-color': 'grey',
+                  'circle-stroke-color': 'black'
+              }
+          });
+
+
+          map.addSource('seattle', {
+              type: 'geojson',
+              data: seattle
+          });
+
+          map.addLayer({
+              'id': 'seattle-layer',
+              'type': 'fill',
+              'source': 'seattle',
+              'paint': {
+                  'fill-color': '#0080ff', // blue color fill
+                  'fill-opacity': 0.08
+              }
+          });
+
+          });
+
+          table = document.getElementsByTagName("table")[0];
+      let row, cell1, cell2;
+      for (let i = 0; i < water.features.length; i++) {
+          // Create an empty <tr> element and add it to the 1st position of the table:
+          row = table.insertRow(-1);
+          cell1 = row.insertCell(0);
+          cell2 = row.insertCell(1);
+
+          cell1.innerHTML = water.features[i].properties.amenity;
+          cell2.innerHTML = water.features[i].properties.check_date;
+      }
+
+      let btn = document.getElementsByTagName("button")[0];
+
+      btn.addEventListener('click', sortTable);
+
+      function sortTable(e) {
+              let table, rows, switching, i, x, y, shouldSwitch;
+              table = document.getElementsByTagName("table")[0];
+              switching = true;
+              /*Make a loop that will continue until
+              no switching has been done:*/
+              while (switching) {
+                  //start by saying: no switching is done:
+                  switching = false;
+                  rows = table.rows;
+                  /*Loop through all table rows (except the
+                  first, which contains table headers):*/
+                  for (i = 1; i < (rows.length - 1); i++) {
+                      //start by saying there should be no switching:
+                      shouldSwitch = false;
+                      /*Get the two elements you want to compare,
+                      one from current row and one from the next:*/
+                      x = parseFloat(rows[i].getElementsByTagName("td")[1].innerHTML);
+                      y = parseFloat(rows[i + 1].getElementsByTagName("td")[1].innerHTML);
+                      //check if the two rows should switch place:
+                      if (x < y) {
+                          //if so, mark as a switch and break the loop:
+                          shouldSwitch = true;
+                          break;
+                      }
+                  }
+                  if (shouldSwitch) {
+                      /*If a switch has been marked, make the switch
+                      and mark that a switch has been done:*/
+                      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                      switching = true;
+                  }
+              }
+          }
+      };
+
+      geojsonFetch();
+    </script>
+  </body>  
+<html>  
